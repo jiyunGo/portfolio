@@ -1,0 +1,226 @@
+/*헤더*/
+.h_wrap{width: 100%; height: 60px; background-color: #444; z-index: 900; position: fixed;}
+.h_logo{color: #fff; text-align: center; font-size: 30px; font-family: 'GmarketSansMedium'; line-height: 60px;}
+
+.ham_btn{width: 30px; height: auto;  position: absolute; top: 16px; right: 20px; z-index: 999;}
+.btn_line{width: 30px; height: 4px; background-color: #ffffff; display: block;
+    margin-bottom: 8px; border-radius: 5px;}
+.btn_line:nth-child(1){margin-left: 5px;}
+.btn_line:nth-child(3){margin-left: 5px;}
+.btn_line:last-child{margin-bottom: 0;}
+
+.gnb{width: 100%; height: 100vh; font-size: 35px; border-bottom: 2px solid #666; display: none;
+    background-color: #fff; z-index: 999; position: relative;}
+.gnb_menu{width: 90%; height: auto; display: flex; flex-direction: column;
+ margin: 0 auto;}
+.gnb_menu a{ margin-top: 10vh; height: 50px; line-height: 50px; border-bottom: 2px solid #222;
+transition: all 0.3s;}
+.gnb_menu a:hover{background-color: #333; color: #fff; border-bottom: 2px solid #9c9c9c;}
+
+.h_contact{width: 90%; height: auto; font-size: 24px; text-align: end;
+  position: absolute; bottom: 10%; right: 5%;}
+
+.h_mail{font-size: 17px;}
+
+.name{font-size: 35px;}
+
+
+/*베너*/
+main{width: 100%; height: auto; padding-top: 60px; position: relative;}
+.banner_circle{width: 100%; height: 500px; margin-top: 30px;}
+.banner_circle img{width: 100%; height: 100%;}
+.h_name{display: none;}
+.h_ux{text-align: end; position: absolute; top: 90px; right: 30px; font-size: 7vw;}
+.h_port{position: absolute; bottom: 40px; left: 20px;
+  font-weight: bold; font-size: 9vw;}
+
+/*자기소개*/
+.pr{width: 95%; margin: 40px auto;}
+.introduc{width: 95%; margin: 30px auto;}
+.profil_photo{width: 100%; height: auto; margin-top: 40px;  background-color: #444;}
+.profil_photo img{width: 100%; height: 100%;}
+.skill{width: 100%; height: auto; margin: 30px auto;}
+.skill h2{font-size: 27px;}
+.skill_list{width: 100%; display: flex; justify-content: space-around; margin-top: 15px;}
+.skill_cata{width: calc(90% / 3); height: auto; position: relative;}
+.icon{width: 90px; height: 4px; border-radius: 0 7px 7px 0; overflow: hidden;}
+.ps{width: 105px; background: linear-gradient(90deg,#09253b,#37abff);
+  position: absolute; top: 45%; left: 12px; overflow: hidden;}
+.fig{width: 65px; background: linear-gradient(90deg, #f25425,#20befd);
+  position: absolute; top: 68%; left: 12px;}
+.ilus{width: 90px; background: linear-gradient(90deg,#390909,#ff9d08);
+  position: absolute; top: 90%; left: 12px;}
+.html{width: 47px; background: linear-gradient(90deg,#e54d26,#f09473);
+  position: absolute; left: 12px; top: 43%;}
+.css{width: 40px; background: linear-gradient(90deg,#006ebb,#74d1f8);
+  position: absolute; left: 12px; top: 67%;}
+.js{width: 100px; background: linear-gradient(90deg,#eacb33,#ffec83);
+position: absolute; left: 11px; top: 91%;}
+.pp{background: linear-gradient(90deg,#080860,#9c9cfe);
+margin-left: 12px;}
+
+.skill_cata h3{font-size: 22px;}
+.skill_cata p{padding-left: 12px; margin-top: 10px;}
+/*프로젝트*/
+.project{width: 95%; margin: 40px auto;}
+.proj_list{width: 95%; margin: 40px auto;}
+.proj_list h3{font-size: 27px;}
+.proj_btn button{height: 35px; line-height: 35px;  border-radius: 8px; transition: all 0.3s;}
+.netmarble .proj_btn button{background-color: #1697ec8e;}
+.netmarble .proj_btn button:hover{background-color: #37abff; color: #fff;}
+.netmarble{}
+.at .proj_btn button{background-color: #303842; color: #bbb;}
+.at .proj_btn button:hover{background-color: #607791; color: #fff;}
+.proj_img{width: 100%; height: 100%; border-radius: 5%;
+  margin-top: 10px; margin-bottom: 10px; box-shadow: #444444a2 5px 5px;}
+.proj_img img{width: 100%; height: 100%;}
+.proj_txt{margin-top: 20px;}
+.proj_txt p{margin-top: 15px;}
+
+/*웹베너*/
+.web_banner{width: 95%; margin: 40px auto;}
+.swiper {
+    width: 80%;
+    height: 100%;
+    margin: 40px auto;
+  }
+
+  .swiper-slide {
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .swiper-slide img{width: 100%;}
+  .swiper-slide p{width: 90%; font-size: 16px; margin: 10px auto 0; color: #ffffff;}
+
+  .swiper-slide:nth-child(1n) {
+    background-color: rgba(0, 145, 0,0.9);
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: rgba(121, 38, 0,0.9);
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-color: rgba(0, 187, 125,0.9);
+  }
+
+  .swiper-slide:nth-child(4n) {
+    background-color: rgba(211, 122, 7,0.9);
+  }
+
+  .swiper-slide:nth-child(5n) {
+    background-color: rgba(57, 217, 223, 0.9);
+  }
+/*상세피이지*/
+.detail_page{width: 95%; margin: 40px auto;}
+.detail_con{width: 90%; margin: 20px auto;}
+.detail_btn{width: auto; height: 60px; line-height: 60px; margin-top: 15px;}
+.detail_btn button{background-color: #1e1b1b; border-radius: 10px;color: #999; transition: all 0.3s;}
+.detail_btn button:hover{background-color: #303030; color: #fff;}
+.detail_txt{margin-top: 15px;}
+.detail_txt p{margin-top: 15px;}
+.detail_img{width: 100%; height: 100%; margin-bottom: 15px; }
+.detail_img img{width: 100%; height: 100%; border-radius: 5%; box-shadow: #444444a2 5px 5px;}
+
+/*푸터*/
+footer{width: 100%; height: auto; position: relative;}
+.f_ty{width: 50%; height: auto; font-size: 40px; position: absolute;
+    top: 10%; left: 10%; transform: translate(-10%,-10%); font-weight: 900;}
+.f_circle{width: 100%; height: 400px;}
+.f_circle img{width: 100%; height: 100%;}
+.f_contact{position: absolute; bottom: 10%; right: 10%; text-align: end;}
+
+/*pc시작*/
+@media all and (min-width:1200px){
+  .name{font-size: 62px;}
+  /*헤더*/
+  .h_wrap{background-color: inherit;}
+  .h_logo{display: none;}
+  .gnb{display: none;}
+  .btn_line{ background-color: #444;}
+  /*배너*/
+  main{padding-top: 15px; }
+  .banner_circle{height: 90vh;}
+  .h_name{display: block; font-size: 4vw; position: absolute;
+    top: 58%; left: 40px;}
+  .h_port{position: absolute;
+    bottom: 70px; left: 40px; font-weight: bold; font-size: 8vw;}
+  .h_ux{font-size: 4vw;}
+  
+  /*자기소개*/
+  .pr{}
+  .introduc{display: flex; flex-direction: row-reverse; justify-content: space-around;}
+  .intro_txt{width: 45%; font-size: 30px;}
+  .pr_mail{font-weight: 900; margin-top: 40px;}
+  .profil_photo{width: 50%; height: 50%; background-color: #444;}
+  
+  .skill{width: 95%; margin: 70px auto 0;}
+  .skill h2{width: 150px; font-size: 55px;}
+  .skill_list{display: block; padding-left: 40px; margin: 40px auto 0; display: flex;}
+  .skill_cata{width: 100%; margin-bottom: 30px;}
+  .skill_cata h3{width: 180px; font-size: 45px;}
+  .skill_cata p{font-size: 27px; width: auto; padding-left: 50px; margin-top: 40px;}
+  .icon{width: 90px; height: 8px; border-radius: 0 7px 7px 0;}
+
+  .ps{width: 170px; background: linear-gradient(90deg,#09253b,#37abff);
+    position: absolute; top: 42%; left: 50px;}
+  .fig{width: 100px; background: linear-gradient(90deg, #f25425,#20befd);
+    position: absolute; top: 65%; left: 50px;}
+  .ilus{width: 145px; background: linear-gradient(90deg,#390909,#ff9d08);
+    position: absolute; top: 87%; left: 50px;}
+  .html{width: 75px; background: linear-gradient(90deg,#e54d26,#f09473);
+    position: absolute; left: 50px; top: 41%;}
+  .css{width: 60px; background: linear-gradient(90deg,#006ebb,#74d1f8);
+    position: absolute; left: 50px; top: 64%;}
+  .js{width: 160px; background: linear-gradient(90deg,#eacb33,#ffec83);
+  position: absolute; left: 48px; top: 88%;}
+  .pp{width: 205px; background: linear-gradient(90deg,#080860,#9c9cfe);
+  position: absolute; left: 38px; top: 42%;}
+
+  /*프러젝트*/
+  .project{margin-top: 100px;}
+  .proj_list{margin-top: 60px;}
+  .proj_list h3{font-size: 47px;}
+  .proj_dis{margin-top: 20px;}
+  .proj_btn button{height: 45px; line-height: 45px; font-size: 25px; padding: 0 7px 0 7px;}
+  .proj_txt{width: 45%; height: 50%; font-size: 32px; margin-bottom: 20px;}
+  /*넷마블*/
+  .netmarble .proj_btn{display: flex; flex-direction: column; width: 300px; align-items: start;}
+  .netmarble .proj_btn button{margin-bottom: 2.5vw;} 
+  .netmarble .proj_dis{display: flex; justify-content: space-around;}
+  .netmarble .proj_img{width: 50%; height: 50%;}
+  .netmarble .proj_txt p{margin-bottom: 2.5vw; margin-top: 0;}
+
+  /*오디오테크니카*/
+  .at h3{text-align: end;}
+  .at .proj_dis{display: flex; flex-direction: row-reverse; justify-content: space-around;}
+  .at .proj_btn{display: flex; flex-direction: column;  width: 100%; align-items: end;}
+  .at .proj_btn button{margin-bottom: 3vw;}
+  .at .proj_img{width: 50%; height: 50%;}
+  .at .proj_txt{width: 45%; height: 50%; text-align: end;}
+  .at .proj_txt p{margin-bottom: 3vw; margin-top: 0;}
+
+  /*베너디자인*/
+.web_banner{width: 95%; margin: 60px auto;}
+.swiper{margin: 80px auto;}
+.swiper-slide{font-size: 40px;}
+.swiper-slide p{font-size: 30px; margin-top: 20px;}
+  /*상세페이지*/
+  .detail_con{margin-top: 50px; display: flex; justify-content: space-around;}
+  .detail_img{width: 45%; height: 45%;}
+  .detail_btn{margin-top: 0.7vw;}
+  .detail_btn button{font-size: 32px; padding: 4px 15px 4px 15px;}
+  .detail_txt{width: 45%; height: auto; font-size: 36px;}
+  .detail_txt p{margin-top: 4.5vw;}
+    
+/*푸터*/
+footer{margin-top: 100px; margin-bottom: 30px;}
+.f_circle{height: 90vh;}
+.f_ty{width: 50%; height: auto; font-size: 5vw;}
+.f_contact{font-size: 2.5vw; position: absolute; bottom: 5%; right: 5%; transform: translate(-5%,-5%);}
+
+}/*pc끝*/
