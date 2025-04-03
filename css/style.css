@@ -119,7 +119,7 @@ margin-left: 12px;}
 .detail_page{width: 95%; margin: 40px auto;}
 .detail_con{width: 90%; margin: 20px auto;}
 .detail_btn{width: auto; height: 60px; line-height: 60px; margin-top: 15px;}
-.detail_btn button{background-color: #1e1b1b; border-radius: 10px;color: #999; transition: all 0.3s;}
+.detail_btn button{background-color: #1e1b1b; border-radius: 5px;color: #999; transition: all 0.3s;}
 .detail_btn button:hover{background-color: #303030; color: #fff;}
 .detail_txt{margin-top: 15px;}
 .detail_txt p{margin-top: 15px;}
