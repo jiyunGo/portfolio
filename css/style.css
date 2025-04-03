@@ -49,11 +49,11 @@ main{width: 100%; height: auto; padding-top: 60px; position: relative;}
 .fig{width: 65px; background: linear-gradient(90deg, #f25425,#20befd);
   position: absolute; top: 68%; left: 12px;}
 .ilus{width: 90px; background: linear-gradient(90deg,#390909,#ff9d08);
-  position: absolute; top: 90%; left: 12px;}
+  position: absolute; top: 91%; left: 12px;}
 .html{width: 47px; background: linear-gradient(90deg,#e54d26,#f09473);
-  position: absolute; left: 12px; top: 43%;}
+  position: absolute; left: 12px; top: 45%;}
 .css{width: 40px; background: linear-gradient(90deg,#006ebb,#74d1f8);
-  position: absolute; left: 12px; top: 67%;}
+  position: absolute; left: 12px; top: 68%;}
 .js{width: 100px; background: linear-gradient(90deg,#eacb33,#ffec83);
 position: absolute; left: 11px; top: 91%;}
 .pp{background: linear-gradient(90deg,#080860,#9c9cfe);
