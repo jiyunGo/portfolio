@@ -65,7 +65,12 @@ margin-left: 12px;}
 .project{width: 95%; margin: 40px auto;}
 .proj_list{width: 95%; margin: 40px auto;}
 .proj_list h3{font-size: 27px;}
-.proj_btn button{height: 35px; line-height: 35px;  border-radius: 8px; transition: all 0.3s;}
+.proj_btn{width: auto; height: auto; justify-content: space-around; display: flex;}
+.proj_btn a{width: 70px; height: 40px; display: block;}
+.btn_web{width: 70px; height: 40px; line-height: 40px;}
+.btn_story{width: 110px; height: 40px; line-height: 40px;}
+.proj_btn button{height: 100%;border-radius: 8px; transition: all 0.3s;}
+
 .netmarble .proj_btn button{background-color: #1697ec8e;}
 .netmarble .proj_btn button:hover{background-color: #37abff; color: #fff;}
 .netmarble{}
@@ -118,8 +123,8 @@ margin-left: 12px;}
 /*상세피이지*/
 .detail_page{width: 95%; margin: 40px auto;}
 .detail_con{width: 90%; margin: 20px auto;}
-.detail_btn{width: auto; height: 60px; line-height: 60px; margin-top: 15px;}
-.detail_btn button{background-color: #1e1b1b; border-radius: 5px;color: #999; transition: all 0.3s;}
+.detail_btn{width: 100px; height: 30px; line-height: 60px; margin-top: 15px; }
+.detail_btn button{display: block; width: 100%; height: 100%; background-color: #1e1b1b; border-radius: 8px;color: #999; transition: all 0.3s;}
 .detail_btn button:hover{background-color: #303030; color: #fff;}
 .detail_txt{margin-top: 15px;}
 .detail_txt p{margin-top: 15px;}
@@ -171,11 +176,11 @@ footer{width: 100%; height: auto; position: relative;}
   .fig{width: 100px; background: linear-gradient(90deg, #f25425,#20befd);
     position: absolute; top: 65%; left: 50px;}
   .ilus{width: 145px; background: linear-gradient(90deg,#390909,#ff9d08);
-    position: absolute; top: 88%; left: 50px;}
+    position: absolute; top: 87%; left: 50px;}
   .html{width: 75px; background: linear-gradient(90deg,#e54d26,#f09473);
-    position: absolute; left: 50px; top: 42%;}
+    position: absolute; left: 50px; top: 41%;}
   .css{width: 60px; background: linear-gradient(90deg,#006ebb,#74d1f8);
-    position: absolute; left: 50px; top: 65%;}
+    position: absolute; left: 50px; top: 64%;}
   .js{width: 160px; background: linear-gradient(90deg,#eacb33,#ffec83);
   position: absolute; left: 48px; top: 88%;}
   .pp{width: 205px; background: linear-gradient(90deg,#080860,#9c9cfe);
@@ -186,26 +191,30 @@ footer{width: 100%; height: auto; position: relative;}
   .proj_list{margin-top: 60px;}
   .proj_list h3{font-size: 47px;}
   .proj_dis{margin-top: 20px;}
-  .proj_btn button{height: 45px; line-height: 45px; font-size: 25px; padding: 0 7px 0 7px;}
-  .proj_txt{width: 45%; height: 50%; font-size: 32px; margin-bottom: 20px;}
-  .btn_web{width: 100px; height: 45px; line-height: 45px;}
-  .proj_btn a{width: 100px; height: 45px; display: block;}
-  .btn_story{width: 200px; height: 45px; line-height: 45px;}
+  .proj_btn button{width: 250px; height: 50px; font-size: 27px; line-height: 50px; padding: 0 7px 0 7px;}
+  .proj_txt{width: 45%; height: 50%; font-size: 20px; margin-bottom: 20px;}
+  .proj_text{margin-top: 5vw;}
+  .btn_web{width: 250px; height: 50px; line-height: 50px;}
+  .proj_btn a{width: 250px; height: 50px; display: block;}
+  .btn_story{width: 250px; height: 50px; line-height: 50px;}
+  .proj_txt p span{font-weight: bold; font-size: 26px;}
   /*넷마블*/
   .netmarble .proj_btn{display: flex; flex-direction: column; width: 300px; align-items: start;}
-  .netmarble .proj_btn button{margin-bottom: 2.5vw;} 
+  .netmarble .proj_btn button{margin-bottom: 1.5vw;} 
   .netmarble .proj_dis{display: flex; justify-content: space-around;}
   .netmarble .proj_img{width: 50%; height: 50%;}
-  .netmarble .proj_txt p{margin-bottom: 2.5vw; margin-top: 0;}
+  .netmarble .proj_txt p{margin-bottom: 1.5vw; margin-top: 0;}
+  .netmarble .proj_btn a{margin-bottom: 1.5vw;}
 
   /*오디오테크니카*/
   .at h3{text-align: end;}
   .at .proj_dis{display: flex; flex-direction: row-reverse; justify-content: space-around;}
   .at .proj_btn{display: flex; flex-direction: column;  width: 100%; align-items: end;}
-  .at .proj_btn button{margin-bottom: 3vw;}
+  .at .proj_btn button{margin-bottom: 2vw;}
   .at .proj_img{width: 50%; height: 50%;}
   .at .proj_txt{width: 45%; height: 50%; text-align: end;}
-  .at .proj_txt p{margin-bottom: 3vw; margin-top: 0;}
+  .at .proj_txt p{margin-bottom: 2vw; margin-top: 0;}
+  .at .proj_btn a{margin-bottom: 2vw;}
 
   /*베너디자인*/
 .web_banner{width: 95%; margin: 60px auto;}
@@ -215,15 +224,17 @@ footer{width: 100%; height: auto; position: relative;}
   /*상세페이지*/
   .detail_con{margin-top: 50px; display: flex; justify-content: space-around;}
   .detail_img{width: 45%; height: 45%;}
-  .detail_btn{margin-top: 0.7vw;}
-  .detail_btn button{font-size: 32px; padding: 4px 15px 4px 15px;}
-  .detail_txt{width: 45%; height: auto; font-size: 36px;}
-  .detail_txt p{margin-top: 4.5vw;}
+  .detail_btn{width: 260px; height: 70px; line-height: 70px;}
+  .detail_btn button{font-size: 32px; padding: 4px 15px 4px 15px; line-height: 70px;}
+  .detail_text{ margin-top: 8vw;}
+  .detail_txt{width: 45%; height: auto; font-size: 27px;}
+  .detail_txt p{margin-top: 3.5vw;}
+  .detail_txt p span{font-weight: bold; font-size: 33px;}
     
 /*푸터*/
 footer{margin-top: 100px; margin-bottom: 30px;}
 .f_circle{height: 90vh;}
-.f_ty{width: 50%; height: auto; font-size: 5vw;}
+.f_ty{width: 40%; height: auto; font-size: 5vw;}
 .f_contact{font-size: 2.5vw; position: absolute; bottom: 5%; right: 5%; transform: translate(-5%,-5%);}
 
 }/*pc끝*/
