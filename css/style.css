@@ -83,7 +83,7 @@ margin-left: 12px;}
 .proj_txt p{margin-top: 15px;}
 
 /*웹베너*/
-.web_banner{width: 95%; margin: 40px auto;}
+.web_banner{width: 95%; margin: 40px auto; overflow: hidden;}
 .swiper {
     width: 80%;
     height: 100%;
