@@ -171,11 +171,11 @@ footer{width: 100%; height: auto; position: relative;}
   .fig{width: 100px; background: linear-gradient(90deg, #f25425,#20befd);
     position: absolute; top: 65%; left: 50px;}
   .ilus{width: 145px; background: linear-gradient(90deg,#390909,#ff9d08);
-    position: absolute; top: 87%; left: 50px;}
+    position: absolute; top: 88%; left: 50px;}
   .html{width: 75px; background: linear-gradient(90deg,#e54d26,#f09473);
-    position: absolute; left: 50px; top: 41%;}
+    position: absolute; left: 50px; top: 42%;}
   .css{width: 60px; background: linear-gradient(90deg,#006ebb,#74d1f8);
-    position: absolute; left: 50px; top: 64%;}
+    position: absolute; left: 50px; top: 65%;}
   .js{width: 160px; background: linear-gradient(90deg,#eacb33,#ffec83);
   position: absolute; left: 48px; top: 88%;}
   .pp{width: 205px; background: linear-gradient(90deg,#080860,#9c9cfe);
@@ -188,6 +188,9 @@ footer{width: 100%; height: auto; position: relative;}
   .proj_dis{margin-top: 20px;}
   .proj_btn button{height: 45px; line-height: 45px; font-size: 25px; padding: 0 7px 0 7px;}
   .proj_txt{width: 45%; height: 50%; font-size: 32px; margin-bottom: 20px;}
+  .btn_web{width: 100px; height: 45px; line-height: 45px;}
+  .proj_btn a{width: 100px; height: 45px; display: block;}
+  .btn_story{width: 200px; height: 45px; line-height: 45px;}
   /*넷마블*/
   .netmarble .proj_btn{display: flex; flex-direction: column; width: 300px; align-items: start;}
   .netmarble .proj_btn button{margin-bottom: 2.5vw;} 
